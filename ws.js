@@ -1,6 +1,7 @@
 const { Server } = require("socket.io");
 require("dotenv").config();
 const Queue = require("./Models/Queue");
+const mongoose = require("mongoose");
 
 const io = new Server(6332);
 
